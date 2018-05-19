@@ -75,10 +75,11 @@ public class HomeServlet extends HttpServlet {
                         "</div>\n" +
                         "</body>\n" +
 
-
                         "<style>" +
                         "body{\n" +
-                        "background-image: url(\"https://vignette.wikia.nocookie.net/p__/images/4/49/Red-Background-Wallpaper-Texture.jpg/revision/latest?cb=20140603164948&path-prefix=protagonist\");\n" +
+                        "background-image: url(\"https://vignette.wikia.nocookie.net/p__/images" +
+                        "/4/49/Red-Background-Wallpaper-Texture.jpg/revision/latest?cb=20140603164948&path-" +
+                        "prefix=protagonist\");\n" +
                         "}\n" +
                         "\n" +
                         ".container{\n" +
@@ -150,23 +151,6 @@ public class HomeServlet extends HttpServlet {
         resp.setContentType("text/html");
         resp.setCharacterEncoding("utf8");
         PrintWriter writer = resp.getWriter();
-//        writer.println("<h1>Course description</h1>");
-//        writer.println("<table>" +
-//                "<tr><th>Course name</th><td>" + courseName + "</td></tr>" +
-//                "<tr><th>Course duration</th><td>" + courseDuration + "</td></tr>" +
-//                "<tr><th>Course category</th><td>" + courseCategory + "</td></tr>" +
-//                "<tr><th>Course description</th><td>" + courseDescription + "</td></tr>" +
-//                "</table>" +
-//                "<table>\n" +
-//                "    <!--Row 1-->\n" +
-//                "    <tr>\n" +
-//                "        <td colspan=\"3\"></td>\n" +
-//                "        <td rowspan=\"2\"></td>\n" +
-//                "        <td rowspan=\"2\"></td>\n" +
-//                "        <td colspan=\"3\"></td>" +
-//                "    </tr>" +
-//                "</table>"
-//        );
 
         writer.println(
                     "<body>\n" +
@@ -211,17 +195,6 @@ public class HomeServlet extends HttpServlet {
                     "</body>\n" +
 
                         "<style>" +
-//                ".Wrapper{\n" +
-//                "    background-color: #F6F6FF;\n" +
-//                "    width: 800px;\n" +
-//                "\n" +
-//                "}\n" +
-//                ".Table{\n" +
-//                "    padding: 8px;\n" +
-//                "    font-size: 22px;\n" +
-//                "    font-family: Calibri,serif;\n" +
-//                "}\n" +
-//                "\n" +
                         "body{\n" +
                         "background-image: url(\"https://www.planwallpaper.com/static/images/Alien_Ink_2560X1600_Abstract_Background_1.jpg\");\n" +
                         "}\n" +
@@ -253,46 +226,6 @@ public class HomeServlet extends HttpServlet {
                         "    text-align: left;\n" +
                         "    background-color: #89D3F4;\n" +
                         "}\n" +
-//                "\n" +
-//                "tr>td+td{\n" +
-//                "    text-align: right;\n" +
-//                "    border-left: 2px solid #DCDCDF;\n" +
-//                "}\n" +
-//                "\n" +
-//                "tr:nth-child(even){\n" +
-//                "    background-color: #FDE9D9\n" +
-//                "}\n" +
-//                "\n" +
-//                ".Main_head{\n" +
-//                "    letter-spacing: 10px;\n" +
-//                "    font-size: 1.5em;\n" +
-//                "    color: #F0F7FC;\n" +
-//                "    background-color: #F79646;\n" +
-//                "    width: 100%;\n" +
-//                "}\n" +
-//                "\n" +
-//                ".Head>th{\n" +
-//                "    height: 40px;\n" +
-//                "    font-weight: bold;\n" +
-//                "\n" +
-//                "}\n" +
-//                "\n" +
-//                ".Head>th+th{\n" +
-//                "    border-left: 2px solid #DCDCDF;\n" +
-//                "    border-collapse: collapse;\n" +
-//                "}\n" +
-//                "\n" +
-//                "tr[id=\"Total\"]{\n" +
-//                "    color: #F0F7FC;\n" +
-//                "    background-color: #687886;\n" +
-//                "    text-align: center;\n" +
-//                "    font-weight: bold;\n" +
-//                "}\n" +
-//                "\n" +
-//                "tr[id=\"Total\"]{\n" +
-//                "    border-bottom: none;\n" +
-//                "    border-top: none;\n" +
-//                "}" +
                         "</style>"
         );
     }
