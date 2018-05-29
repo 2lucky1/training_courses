@@ -12,4 +12,12 @@
     <servlet-name>HomeServlet</servlet-name>
     <url-pattern>/</url-pattern>
   </servlet-mapping>
+  <servlet>
+    <servlet-name>MultiplicationTableServlet</servlet-name>
+    <servlet-class>com.muntian.servlets.MultiplicationTableServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>MultiplicationTableServlet</servlet-name>
+    <url-pattern>/multi</url-pattern>
+  </servlet-mapping>
 </web-app>
