@@ -30,7 +30,7 @@ public class MultiplicationTableServlet extends HttpServlet {
         "             <head>\n" +
         "                 <meta charset=\"UTF-8\">\n" +
         "                 <title>Multiplication table</title>\n" +
-        "                 <link rel=\"stylesheet\" href=\"/css/multi.css\">\n" +
+        "                 <link rel=\"stylesheet\" href=\"/resources/css/multi.css\">\n" +
         "             </head>\n" +
         "             <body>\n" +
         "             <div class=\"container\">\n" +
