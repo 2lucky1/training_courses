@@ -16,11 +16,11 @@ public class MultiplicationTableServlet extends HttpServlet {
         int rows = 10;
 
         if(req.getParameter("col")!=null){
-            columns = Integer.valueOf(req.getParameter("col"));
+            columns = Integer.parseInt(req.getParameter("col"));
         }
 
         if(req.getParameter("row")!=null){
-            rows = Integer.valueOf(req.getParameter("row"));
+            rows = Integer.parseInt(req.getParameter("row"));
         }
 
         PrintWriter writer = resp.getWriter();
